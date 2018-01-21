@@ -11,6 +11,7 @@ export default class SubmitButton extends React.Component {
     return (
       <Button style={stylesheet.button}
       title={this.props.title}
+      color='blue'
       />
     );
   }
