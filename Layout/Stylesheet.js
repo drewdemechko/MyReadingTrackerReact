@@ -20,13 +20,23 @@ const stylesheet = StyleSheet.create({
     marginBottom: 10
   },
   label: {
-    marginLeft: 0,
     fontWeight: 'bold',
+  },
+  errorLabel: {
+    color: 'red'
   },
   logo: {
     marginTop: 30,
     height: 100,
     width: 220
+  },
+  linkButton: {
+    marginTop: 10,
+    backgroundColor: 'transparent',
+    alignItems: 'center'
+  },
+  linkButtonText: {
+    color: 'blue'
   }
 });
 

@@ -9,8 +9,7 @@ export default class SubmitButton extends React.Component {
   
   render() {
     return (
-      <Button style={stylesheet.button}
-      title={this.props.title}
+      <Button title={this.props.title}
       color='blue'
       />
     );

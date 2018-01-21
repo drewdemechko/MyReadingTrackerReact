@@ -17,8 +17,10 @@ export default class LoginModal extends React.Component {
                     <Textbox />
                     <TextboxLabel text='Password' />
                     <Textbox isPassword />
-                    <SubmitButton title='Login' />
-                    <LinkButton title='No account yet? Register' />
+                    <TextboxLabel text='Verify Password' />
+                    <Textbox isPassword />
+                    <SubmitButton title='Register' />
+                    <LinkButton title='Already have an account? Login' />
                 </View>
             </View>
         );
