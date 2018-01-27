@@ -10,16 +10,13 @@ import { View } from 'react-native';
 export default class LoginModal extends React.Component {
     render() {
         return (
-            <View style={stylesheet.container}>
-                <Logo />
-                <View style={stylesheet.preloginModal}>
-                    <TextboxLabel text='Email' />
-                    <Textbox />
-                    <TextboxLabel text='Password' />
-                    <Textbox isPassword />
-                    <SubmitButton title='Login' />
-                    <LinkButton title='No account yet? Register' href='/register' />
-                </View>
+            <View style={stylesheet.preloginModal}>
+                <TextboxLabel text='Email' />
+                <Textbox />
+                <TextboxLabel text='Password' />
+                <Textbox isPassword />
+                <SubmitButton title='Login' />
+                <LinkButton title='No account yet? Register' href='/register' />
             </View>
         );
     }
