@@ -2,15 +2,16 @@ import React from 'react';
 import stylesheet from '../../Layout/Stylesheet';
 import Textbox from '../Textbox';
 import TextboxLabel from '../TextboxLabel';
-import Logo from '../Logo';
 import SubmitButton from '../SubmitButton';
 import LinkButton from '../LinkButton';
+import ErrorLabel from '../ErrorLabel';
 import { View } from 'react-native';
 
 export default class LoginModal extends React.Component {
     render() {
         return (
-            <View style={stylesheet.preloginModal}>
+            <View style={stylesheet.modal}>
+                <ErrorLabel text='Password must be at least 6 characters long.' />
                 <TextboxLabel text='Email' />
                 <Textbox />
                 <TextboxLabel text='Password' />
