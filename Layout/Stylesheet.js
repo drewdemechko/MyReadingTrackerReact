@@ -7,8 +7,8 @@ const stylesheet = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
-  preloginModal: {
-    marginTop: 60
+  modal: {
+    marginTop: 10
   },
   field: {
     marginBottom: 10
@@ -20,15 +20,15 @@ const stylesheet = StyleSheet.create({
     marginBottom: 10
   },
   label: {
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   },
   errorLabel: {
-    color: 'red'
+    color: 'red',
+    width: 200
   },
   logo: {
     marginTop: 30,
-    height: 100,
-    width: 220
+    height: 100
   },
   linkButton: {
     marginTop: 10,
