@@ -15,7 +15,7 @@ export default class SearchControl extends React.Component {
         <View>
           <Textbox />
         </View>
-        <View>
+        <View style={stylesheet.searchButton}>
           <SubmitButton title='Search' />
         </View>
       </View>

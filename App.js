@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render() {
     return (
       <NativeRouter>
-        <View style={stylesheet.container}>
+        <View>
           <Logo />
           <Switch>
             <Route exact path='/' component={SearchModal} />

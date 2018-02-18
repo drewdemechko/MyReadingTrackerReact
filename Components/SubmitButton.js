@@ -1,6 +1,6 @@
 import React from 'react';
 import stylesheet from '../Layout/Stylesheet'
-import { Button } from 'react-native';
+import { View, Button } from 'react-native';
 
 export default class SubmitButton extends React.Component { 
   constructor(props){
@@ -9,9 +9,11 @@ export default class SubmitButton extends React.Component {
   
   render() {
     return (
-      <Button title={this.props.title}
-      color='blue'
-      />
+      <View style={stylesheet.submitButton}>
+        <Button title={this.props.title} 
+          color='blue'
+        />
+      </View>
     );
   }
 }

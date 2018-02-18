@@ -2,13 +2,15 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 
 const stylesheet = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+  logoContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignContent: 'stretch'
   },
   modal: {
-    marginTop: 10
+    marginTop: 10,
+    flexDirection: 'column',
+    alignItems: 'center'
   },
   field: {
     marginBottom: 10
@@ -20,7 +22,8 @@ const stylesheet = StyleSheet.create({
     marginBottom: 10
   },
   label: {
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    width: 200
   },
   errorLabel: {
     color: 'red',
@@ -37,6 +40,12 @@ const stylesheet = StyleSheet.create({
   },
   linkButtonText: {
     color: 'blue'
+  },
+  searchButton: {
+    width: 100
+  },
+  submitButton: {
+    width: 200
   }
 });
 
